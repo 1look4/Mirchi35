@@ -1,0 +1,78 @@
+{
+  "name": "hyperlocal-admin-dashboard",
+  "version": "1.0.0",
+  "description": "Admin dashboard for hyperlocal business listing management with multi-language and theme support",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.20",
+    "@mui/x-data-grid": "^6.17.2",
+    "@mui/x-charts": "^6.18.1",
+    "@mui/x-date-pickers": "^6.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.8.1",
+    "i18next": "^23.7.6",
+    "react-i18next": "^13.5.0",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-http-backend": "^2.3.2",
+    "aws-sdk": "^2.1527.0",
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "recharts": "^2.8.0",
+    "notistack": "^3.0.1",
+    "react-helmet-async": "^1.3.0",
+    "jwt-decode": "^4.0.0",
+    "validator": "^13.11.0",
+    "file-saver": "^2.0.5",
+    "react-beautiful-dnd": "^13.1.1"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
+    "analyze": "npm run build && npx serve -s build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "react",
+    "admin-dashboard",
+    "hyperlocal",
+    "business-listing",
+    "mui",
+    "multi-language",
+    "dark-theme"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  }
+}
