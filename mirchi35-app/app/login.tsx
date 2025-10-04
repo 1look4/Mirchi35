@@ -32,8 +32,8 @@ export default function LoginScreen() {
     // Add continue logic here
     console.log('Continue pressed with mobile number:', mobileNumber);
     
-    // After successful login, go to category selection screen first
-    (router as any).replace('/CategoryScreen');
+    // After entering mobile number, go to OTP screen
+    (router as any).replace('/otp');
   };
 
   const handleOtpLogin = () => {
