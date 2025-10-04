@@ -1,13 +1,13 @@
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import {
-    SafeAreaView,
-    StatusBar,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 
@@ -49,7 +49,7 @@ export default function LoginScreen() {
         {/* Logo and Title */}
         <View style={styles.header}>
           <ChiliIcon />
-          <Text style={styles.title}>Mirchi Bajji</Text>
+          <Text style={styles.title}>Mirchi 35</Text>
         </View>
 
         {/* Login Section */}

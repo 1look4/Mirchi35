@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "name": "Cake Shop",
+    "address": "123 Main Street · 9876543210",
+    "phone": "9876543210",
+    "description": "Try our delicious cakes and pastries!",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1505250469679-203ad9ced0cb?w=1200&h=800&fit=crop"
+    ],
+    "pin": { "x": 60, "y": 22 }
+  },
+  {
+    "id": "2",
+    "name": "Cafe Delight",
+    "address": "45 Baker Street · 9876512345",
+    "phone": "9876512345",
+    "description": "Cozy place for coffee and snacks.",
+    "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=1200&h=800&fit=crop"
+    ],
+    "pin": { "x": 30, "y": 18 }
+  },
+  {
+    "id": "3",
+    "name": "Tech Repair Pro",
+    "address": "88 Market Road · 9876598765",
+    "phone": "9876598765",
+    "description": "Fast and reliable electronics repair.",
+    "imageUrl": "https://images.unsplash.com/photo-1581092322076-2b66f7f5b6f3?w=800&h=500&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1581092322076-2b66f7f5b6f3?w=1200&h=800&fit=crop"
+    ],
+    "pin": { "x": 80, "y": 28 }
+  }
+]
