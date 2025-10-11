@@ -1,10 +1,14 @@
 import { Tabs } from 'expo-router';
-import React from 'react';
 
 import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+
+import {
+  LanguagesIcon,
+  User2Icon
+} from 'lucide-react-native';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -27,22 +31,29 @@ export default function TabLayout() {
         name="language"
         options={{
           title: 'Language',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="globe" color={color} />,
+          tabBarIcon: ({ color }) => <LanguagesIcon size={20} color={color} />,
         }}
       />
-{/*   
+      {/*   
       <Tabs.Screen
         name="explore"
         options={{
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
-      /> */}
+      />
       <Tabs.Screen
         name="settings"
         options={{
           title: 'Settings',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="gear" color={color} />,
+          tabBarIcon: ({ color }) => <Settings size={28} color={color} />,
+        }}
+      /> */}
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Prifile',
+          tabBarIcon: ({ color }) => <User2Icon size={28} color={color} />,
         }}
       />
     </Tabs>
